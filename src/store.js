@@ -28,6 +28,7 @@ export let { changeName, increaseAge } = user.actions;
 //   initialState: [10, 11, 12],
 // });
 
+// cart라는 state
 let cart = createSlice({
   name: "cart",
   initialState: [
